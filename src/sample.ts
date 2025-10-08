@@ -1,6 +1,6 @@
 const author = {
-    name: `Angela`,
-    nickname: `freeclothing.ca`,
+    name: `Nazeem`,
+    nickname: `freeclothingvictoria.com`,
     ig: `https://www.instagram.com/nazeemkottalath/`,
     email: 'mailto:nazeemkottalath@gmail.com'
 
