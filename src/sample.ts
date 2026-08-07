@@ -9,7 +9,7 @@ const author = {
 
 const buy = {
     title: `Get event reminder`,
-    link: `https://luma.com/nmg2x2g3`
+    link: `https://luma.com/diolhmzk`
 }
 
 
