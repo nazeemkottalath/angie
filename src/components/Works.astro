@@ -1,9 +1,7 @@
 ---
 import Bars from "./Bars.astro"
-
 import svgUnderline from '../assets/underline.svg'
 import arrowCard from '../assets/arrow-card.svg'
-
 const portfolio = [
   { 
     name: 'Shelbourne St Church of Christ', desc: `3460 Shelbourne St   Friday, September 25th 4-7 pm, and Saturday, September 26th 9 am to 3 pm`,
@@ -17,8 +15,6 @@ const portfolio = [
   },
 ]
 ---
-
-
 <section class="py-25 space-y-10 px-5" id="work">
     <div class="max-w-md mx-auto relative ">
       <h1 class="text-4xl font-medium text-center">Donation Centres</h1>
@@ -27,7 +23,7 @@ const portfolio = [
   
     <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10"> 
       {portfolio.map(item => ( 
-        <a href="#" class="flex flex-col bg-white p-5 group relative transition-all duration-200 hover:shadow-[4px_4px_0px_rgba(0,0,0,0.3)]">
+        <a href={item.link} target="_blank" rel="noopener noreferrer" class="flex flex-col bg-white p-5 group relative transition-all duration-200 hover:shadow-[4px_4px_0px_rgba(0,0,0,0.3)]">
           <div class="w-full h-[200px] overflow-hidden border-2">
            <img src={item.cover} alt="" class="w-full h-full object-cover" />
           </div>
