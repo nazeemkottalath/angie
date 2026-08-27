@@ -9,7 +9,7 @@ const author = {
 
 const buy = {
     title: `Get event reminder`,
-    link: `https://luma.com/diolhmzk`
+    link: `https://tsea.ca/fcv`
 }
 
 
